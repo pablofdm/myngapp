@@ -16,7 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "modules/orders": ["modules/orders/src/index.ts"],
-      "modules/products": ["modules/products/src/index.ts"]
+      "modules/products": ["modules/products/src/index.ts"],
+      "modules/shared/ui-interface": [
+        "modules/shared/ui-interface/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
